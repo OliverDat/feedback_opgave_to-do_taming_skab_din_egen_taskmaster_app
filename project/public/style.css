@@ -1,0 +1,103 @@
+/* Hver opgave */
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 55px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    gap: 15px;
+}
+
+/* Teksten på opgaven */
+.task-item span {
+    flex: 1;
+    overflow-wrap: anywhere;
+    color: #333;
+}
+
+/* Slet-knappen */
+.delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+/* Hover-effekt på slet-knappen */
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+/* Fast bredde på hele listen */
+#task-list {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Hele siden */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Overskrift */
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Input og tilføj-knap */
+#task-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto 25px;
+}
+
+/* Inputfelt */
+#task-input {
+    width: 250px;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Tilføj-knap */
+#add-task-button {
+    padding: 12px 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#add-task-button:hover {
+    background-color: #45a049;
+}
+
+/* Listen med opgaver */
+#task-list {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
